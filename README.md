@@ -21,14 +21,17 @@ It replaces manual entry systems at gates with accurate & fast computer vision-b
 ⚙️ Automation Ready	Logic for gate unlock/alert system integration
 🧠 Image Preprocessing	Noise removal, thresholding, cropping
 ## Tech Stack
-Component	Technology
-Programming	Python
-Computer Vision	OpenCV
-OCR Engine	EasyOCR / Tesseract
-AI Model	YOLOv8
-Database	MySQL / SQLite
-Visualization	matplotlib / cv2 GUI
+| Component        | Technology              |
+|------------------|-------------------------|
+| Programming      | Python                  |
+| Computer Vision  | OpenCV                  |
+| OCR Engine       | EasyOCR / Tesseract     |
+| AI Model         | YOLOv8                  |
+| Database         | MySQL / SQLite          |
+| Visualization    | matplotlib / cv2 GUI    |
+
 ## Folder Structure
+```bash
 Vehicle-Number-Plate-Recognition/
 │── model/                 # YOLO model files
 │── database/              # Vehicle records
@@ -40,7 +43,7 @@ Vehicle-Number-Plate-Recognition/
 │   └── main.py            # Integrated execution
 │── requirements.txt
 └── README.md
-
+```
 
 ## System Workflow
 Live Camera Feed / Video Input 
@@ -56,12 +59,15 @@ Compare text with database records
 ✅ If authorized → Access Granted
 ❌ If not → Alert Triggered
 
-▶️ Run Locally
+## ▶️ Run Locally
+```bash
 Install Dependencies
 pip install -r requirements.txt
-
+```
+```bash
 Run Script
 python main.py
+```
 
 ## Sample Output
 
