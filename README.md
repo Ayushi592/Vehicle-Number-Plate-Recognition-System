@@ -64,8 +64,9 @@ Compare text with database records
 Install Dependencies
 pip install -r requirements.txt
 ```
+
+## Run Script
 ```bash
-Run Script
 python main.py
 ```
 
